@@ -3,95 +3,148 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>T-K Academy</title>
+<title>T&K Academy</title>
 
 <style>
 body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#f4f4f4;
+font-family:Arial,sans-serif;
+margin:0;
+background:#f4f4f4;
+color:#333;
 }
 
 header{
-    background:#0d6efd;
-    color:white;
-    text-align:center;
-    padding:40px;
+background:#003366;
+color:white;
+padding:20px;
+text-align:center;
 }
 
-section{
-    width:90%;
-    max-width:900px;
-    margin:30px auto;
-    background:white;
-    padding:25px;
-    border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,.1);
+nav{
+background:#0055aa;
+padding:10px;
+text-align:center;
 }
 
-h2{
-    color:#0d6efd;
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
 }
 
-.course{
-    background:#eef5ff;
-    margin:10px 0;
-    padding:15px;
-    border-radius:8px;
+.hero{
+padding:40px;
+text-align:center;
+background:white;
 }
+
+.hero h1{
+color:#003366;
+}
+
+.section{
+padding:30px;
+text-align:center;
+}
+
+ul{
+list-style:none;
+padding:0;
+}
+
+li{
+padding:8px;
+}
+
+.buttons{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:10px;
+margin-top:20px;
+}
+
+.btn{
+padding:12px 20px;
+border-radius:8px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.call{background:#28a745;}
+.email{background:#007bff;}
+.whatsapp{background:#25D366;}
+.facebook{background:#1877F2;}
+.youtube{background:#FF0000;}
 
 footer{
-    background:#222;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:30px;
+background:#003366;
+color:WHITE;
+text-align:center;
+padding:15px;
+margin-top:30px;
 }
 </style>
 
 </head>
-
 <body>
 
 <header>
-<h1>🎓 T-K Academy</h1>
-<p>Learn Korean Language & Computer Skills</p>
+<h1>T&K Academy</h1>
+<p>Learn • Grow • Succeed</p>
 </header>
 
-<section>
-<h2>📚 Our Courses</h2>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#courses">Courses</a>
+<a href="#contact">Contact</a>
+</nav>
 
-<div class="course">
-🇰🇷 EPS-TOPIK Korean Language
-</div>
-
-<div class="course">
-💻 Computer Programming
-</div>
-
-<div class="course">
-⚙️ CNC Programming
-</div>
+<section id="home" class="hero">
+<h1>Welcome to T&K Academy</h1>
+<p>Best Academy for EPS-TOPIK Korean Language, Computer Programming and Technical Courses.</p>
 </section>
 
-<section>
-<h2>👨‍🏫 About Us</h2>
-
-<p>
-Welcome to T-K Academy.
-We provide Korean language education, computer programming and CNC programming training.
-</p>
+<section id="about" class="section">
+<h2>About Us</h2>
+<p>T&K Academy helps students learn Korean language, programming and technical skills.</p>
 </section>
 
-<section>
-<h2>📞 Contact</h2>
+<section id="courses" class="section">
+<h2>Our Courses</h2>
+<ul>
+<li>🇰🇷 EPS-TOPIK Korean Language</li>
+<li>💻 HTML, CSS & JavaScript</li>
+<li>🐍 Python Programming</li>
+<li>☕ C Programming</li>
+<li>📚 KIIP Preparation</li>
+</ul>
+</section>
 
-<p>Email: tkacademy@gmail.com</p>
-<p>Country: South Korea</p>
+<section id="contact" class="section">
+<h2>Contact Us</h2>
+
+<div class="buttons">
+
+<a href="tel:+97798XXXXXXXX" class="btn call">📞 Call</a>
+
+<a href="mailto:your@email.com" class="btn email">✉️ Email</a>
+
+<a href="https://wa.me/97798XXXXXXXX" class="btn whatsapp" target="_blank">💬 WhatsApp</a>
+
+<a href="https://facebook.com/YourPage" class="btn facebook" target="_blank">📘 Facebook</a>
+
+<a href="https://youtube.com/@YourChannel" class="btn youtube" target="_blank">▶ YouTube</a>
+
+</div>
+
 </section>
 
 <footer>
-© 2026 T-K Academy. All Rights Reserved.
+© 2026 T&K Academy | All Rights Reserved
 </footer>
 
 </body>
